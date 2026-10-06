@@ -1,0 +1,58 @@
+const notifications = [
+  {
+    id: "NOT001",
+    title: "Pending Payment",
+    message: "David Peter has a pending hostel payment.",
+    type: "Payment",
+    date: "2026-09-05",
+    time: "09:30 AM",
+    status: "Unread",
+  },
+  {
+    id: "NOT002",
+    title: "Room Maintenance",
+    message: "Room C-303 has been marked for maintenance.",
+    type: "Maintenance",
+    date: "2026-09-06",
+    time: "10:15 AM",
+    status: "Unread",
+  },
+  {
+    id: "NOT003",
+    title: "New Student Allocation",
+    message: "Mary Daniel has been allocated to room C-302.",
+    type: "Allocation",
+    date: "2026-09-06",
+    time: "02:20 PM",
+    status: "Read",
+  },
+  {
+    id: "NOT004",
+    title: "Payment Received",
+    message: "Amani Hassan has completed the hostel payment.",
+    type: "Payment",
+    date: "2026-09-07",
+    time: "08:45 AM",
+    status: "Read",
+  },
+  {
+    id: "NOT005",
+    title: "New Student Registered",
+    message: "Sarah Emmanuel has been registered in the system.",
+    type: "Student",
+    date: "2026-09-08",
+    time: "11:10 AM",
+    status: "Read",
+  },
+  {
+    id: "NOT006",
+    title: "Maintenance Completed",
+    message: "Maintenance work for room C-303 has been completed.",
+    type: "Maintenance",
+    date: "2026-09-10",
+    time: "04:00 PM",
+    status: "Read",
+  },
+];
+
+export default notifications;

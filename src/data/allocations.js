@@ -1,0 +1,58 @@
+const allocations = [
+  {
+    id: "ALC001",
+    studentId: "STU001",
+    studentName: "Amani Hassan",
+    room: "A-102",
+    bed: "Bed 1",
+    allocationDate: "2026-09-01",
+    status: "Active",
+  },
+  {
+    id: "ALC002",
+    studentId: "STU002",
+    studentName: "Neema Joseph",
+    room: "A-103",
+    bed: "Bed 1",
+    allocationDate: "2026-09-01",
+    status: "Active",
+  },
+  {
+    id: "ALC003",
+    studentId: "STU003",
+    studentName: "John Michael",
+    room: "B-204",
+    bed: "Bed 1",
+    allocationDate: "2026-09-02",
+    status: "Active",
+  },
+  {
+    id: "ALC004",
+    studentId: "STU004",
+    studentName: "Sarah Emmanuel",
+    room: "C-301",
+    bed: "Bed 1",
+    allocationDate: "2026-09-02",
+    status: "Active",
+  },
+  {
+    id: "ALC005",
+    studentId: "STU005",
+    studentName: "David Peter",
+    room: "B-205",
+    bed: "Bed 1",
+    allocationDate: "2026-09-03",
+    status: "Ended",
+  },
+  {
+    id: "ALC006",
+    studentId: "STU006",
+    studentName: "Mary Daniel",
+    room: "C-302",
+    bed: "Bed 1",
+    allocationDate: "2026-09-03",
+    status: "Active",
+  },
+];
+
+export default allocations;
